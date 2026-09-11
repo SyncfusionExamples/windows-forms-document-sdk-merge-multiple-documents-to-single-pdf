@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ConvertAndMergeDocumentsToPdf</RootNamespace>
+    <AssemblyName>ConvertAndMergeDocumentsToPdf</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Pdf.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.Pdf.Imaging.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.XlsIORenderer.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.PresentationRenderer.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.HtmlToPdfConverter.Net.Windows" Version="*" />
+    <PackageReference Include="Syncfusion.XpsToPdfConverter.Net.Core" Version="*" />
+  </ItemGroup>
+
+</Project>
