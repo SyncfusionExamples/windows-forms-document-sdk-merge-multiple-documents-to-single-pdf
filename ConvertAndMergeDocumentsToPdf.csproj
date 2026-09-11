@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Licensing" Version="*" />
     <PackageReference Include="Syncfusion.Pdf.Net.Core" Version="*" />
     <PackageReference Include="Syncfusion.Pdf.Imaging.Net.Core" Version="*" />
     <PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="*" />
